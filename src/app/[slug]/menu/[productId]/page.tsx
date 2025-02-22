@@ -3,7 +3,6 @@ import { db } from "@/lib/prisma";
 import { notFound } from "next/navigation";
 import ProductHeader from "./components/product-header";
 import ProductDetails from "./components/product-details";
-import { tree } from "next/dist/build/templates/app-page";
 
 interface ProducPageProps {
   params: Promise<{ slug: string; productId: string }>;
