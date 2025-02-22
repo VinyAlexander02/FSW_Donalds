@@ -8,7 +8,7 @@ import { ChefHat, ChevronLeft, ChevronRight } from "lucide-react";
 import { useContext, useState } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { CartContext } from "../../Context/cart";
-import CartSheet from "./cart-sheet";
+import CartSheet from "../../components/cart-sheet";
 
 interface ProductDetailsProps {
   product: Prisma.ProductGetPayload<{
